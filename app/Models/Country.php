@@ -13,7 +13,7 @@ class Country extends Model
         'iso',
         'name',
         'dname',
-        'ios3',
+        'iso3',
         'position',
         'numcode',
         'phonecode',
