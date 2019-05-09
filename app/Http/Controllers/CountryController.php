@@ -24,4 +24,9 @@ class CountryController extends Controller
         $country->update($request->all());
         return response()->json($country,201);
     }
+
+    public function countryDelete(Country $country){
+        $country->delete();
+        return response()->json(null,204);
+    }
 }
